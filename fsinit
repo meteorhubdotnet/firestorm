@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+echo "==========================================================="
+echo "Init Firestorm Project..."
+mkdir ./pages
+mkdir ./components
+mkdir ./router
+mkdir ./lib
+mkdir ./client/layouts
+mkdir ./pages/page-home
+mkdir ./pages/page-home/client
+mkdir ./pages/page-home/server
+cp ./packages/firestorm/page-template/page.html.tmpl ./pages/page-home/client/page-home.html
+sed -i'.original' "s/TEMPLATE_NAME_GOES_HERE/pageHome/g" ./pages/page-home/client/page-home.html
+rm ./pages/page-home/client/page-home.html.original
+sed -i'.original' "s/TEMPLATE_NAME_GOES_HERE/pageHome/g" ./pages/page-home/client/page-home.html
+rm ./pages/page-home/client/page-home.html.original
+cp ./packages/firestorm/page-template/page.css.tmpl ./pages/page-home/client/page-home.css
+sed -i'.original' "s/TEMPLATE_NAME_GOES_HERE/pageHome/g" ./pages/page-home/client/page-home.css
+rm ./pages/page-home/client/page-home.css.original
+cp ./packages/firestorm/page-template/page-publications.js ./pages/page-home/server/page-publications.js
+sed -i'.original' "s/TEMPLATE_NAME_GOES_HERE/pageHome/g" ./pages/page-home/server/page-publications.js
+rm ./pages/page-home/server/page-publications.js.original
+cp ./packages/firestorm/init-template/page-home.js.tmpl ./pages/page-home/page-home.js
+sed -i'.original' "s/TEMPLATE_NAME_GOES_HERE/pageHome/g" ./pages/page-home/page-home.js
+rm ./pages/page-home/page-home.js.original
+cp ./packages/firestorm/init-template/head.html.tmpl ./client/head.html
+rm ./client/main.html
+rm ./client/main.js
+rm ./client/main.css
+touch ./client/global.css
+touch ./client/global.js
+cp ./packages/firestorm/init-template/layout.html.tmpl ./client/layouts/layout.html
+cp ./packages/firestorm/init-template/layout.js.tmpl ./client/layouts/layout.js
+cp ./packages/firestorm/init-template/layout.css.tmpl ./client/layouts/layout.css
+cp ./packages/firestorm/init-template/router-options.js.tmpl ./router/router-options.js
+cp ./packages/firestorm/init-template/router-security.js.tmpl ./router/router-security.js
+
+
+
+echo "Done!"
+echo "==========================================================="
