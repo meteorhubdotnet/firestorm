@@ -21,13 +21,6 @@ sudo npm i -g firestorm-cli
 sudo npm link
 fsinit
 ```
-And remove these lines from package.json
-```
-"mainModule": {
-  "client": "client/main.js",
-  "server": "server/main.js"
-},
-```
 
 ### Creating pages
 ```
@@ -59,5 +52,4 @@ I made when developing:
 
 ### Roadmap
 
-* Auto update package.json on fsinit
 * Add flag to create 'less' or 'sass' files instead of css
