@@ -9,15 +9,15 @@ Package.onUse(function (api) {
 
     api.versionsFrom('METEOR@2.2');
     api.use('accounts-password');
-    api.use('less');
+    api.use('less@3.0.1');
     api.use('check');
     // api.use('tmeasday:check-npm-versions');
     // api.use('meteorhubdotnet:bureaucrat');
-    api.use('meteorhubdotnet:firestorm-iron-router');
-    api.use('meteorhubdotnet:firestorm-useraccounts-core');
-    api.use('meteorhubdotnet:firestorm-iron-useraccounts');
-    api.use('meteorhubdotnet:firestorm-useraccounts-unstyled');
-    api.use('aldeed:collection2-core');
+    api.use('meteorhubdotnet:firestorm-iron-router@1.0.0');
+    api.use('meteorhubdotnet:firestorm-useraccounts-core@1.0.0');
+    api.use('meteorhubdotnet:firestorm-iron-useraccounts@1.0.0');
+    api.use('meteorhubdotnet:firestorm-useraccounts-unstyled@1.0.0');
+    api.use('aldeed:collection2-core@3.4.0');
     // api.use('meteorhubdotnet:collection-helpers');
 
 });
