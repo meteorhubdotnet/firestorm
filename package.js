@@ -13,12 +13,12 @@ Package.onUse(function (api) {
     api.use('check');
     // api.use('tmeasday:check-npm-versions');
     // api.use('meteorhubdotnet:bureaucrat');
-    api.use('meteorhubdotnet:iron-router');
-    api.use('meteorhubdotnet:useraccounts-core');
-    api.use('meteorhubdotnet:useraccounts-iron-routing');
-    api.use('meteorhubdotnet:useraccounts-unstyled');
+    api.use('meteorhubdotnet:firestorm-iron-router');
+    api.use('meteorhubdotnet:firestorm-useraccounts-core');
+    api.use('meteorhubdotnet:firestorm-iron-useraccounts');
+    api.use('meteorhubdotnet:firestorm-useraccounts-unstyled');
     api.use('aldeed:collection2-core');
-    api.use('meteorhubdotnet:collection-helpers');
+    // api.use('meteorhubdotnet:collection-helpers');
 
 });
 
