@@ -1,7 +1,7 @@
 Package.describe({
     name: 'meteorhubdotnet:firestorm',
     summary: 'Rapid Development Framework For Meteor With Blaze And Iron Router',
-    version: '1.0.6',
+    version: '1.0.7',
     git: 'https://github.com/meteorhubdotnet/firestorm'
 });
 
