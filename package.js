@@ -14,7 +14,7 @@ Package.onUse(function (api) {
     // api.use('tmeasday:check-npm-versions');
     // api.use('meteorhubdotnet:bureaucrat');
     api.use('meteorhubdotnet:firestorm-iron-router@1.0.5');
-    api.use('meteorhubdotnet:firestorm-helpers@1.0.1');
+    api.use('meteorhubdotnet:firestorm-helpers@1.0.2');
     api.use('meteorhubdotnet:firestorm-useraccounts-core@1.0.4');
     api.use('meteorhubdotnet:firestorm-iron-useraccounts@1.0.4');
     api.use('meteorhubdotnet:firestorm-useraccounts-unstyled@1.0.4');
