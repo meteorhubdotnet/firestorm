@@ -1,7 +1,7 @@
 Package.describe({
     name: 'meteorhubdotnet:firestorm',
     summary: 'Rapid Development Framework For Meteor With Blaze And Iron Router',
-    version: '1.0.15',
+    version: '1.0.17',
     git: 'https://github.com/meteorhubdotnet/firestorm'
 });
 
@@ -18,4 +18,4 @@ Package.onUse(function (api) {
     api.use('aldeed:collection2@3.5.0');
 });
 
-Npm.depends({ 'simpl-schema':'3.4.1' });
+Npm.depends({ 'simpl-schema':'1.13.1' });
